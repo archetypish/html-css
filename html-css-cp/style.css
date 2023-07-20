@@ -1,3 +1,7 @@
+* {
+  border: 2px solid red;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -139,3 +143,7 @@ a:active {
 a {
   color: magenta !important;
 }
+
+/* nav {
+  font-size: 18px;
+} */
