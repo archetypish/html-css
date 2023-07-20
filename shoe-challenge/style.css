@@ -3,4 +3,69 @@
 body {
   font-family: sans-serif;
   font-size: 20px;
+  /* color: #444; */
+  border: 4px solid black;
+}
+
+/* Typography */
+
+h2,
+h3,
+.shipping-info {
+  text-transform: uppercase;
+}
+
+h2 {
+  /* text-transform: uppercase; */
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.shipping-info {
+  font-weight: bold;
+  font-size: 16px;
+  /* text-transform: uppercase; */
+  color: #777;
+}
+
+.more-info:link,
+.more-info:active,
+.more-info:visited {
+  color: #444;
+  /* font-size: px; */
+}
+
+.more-info:hover {
+  text-decoration: none;
+}
+
+.pd-list {
+  list-style-type: square;
+}
+
+.btn {
+  border: none;
+  border-radius: 0;
+}
+
+.btn-atc {
+  font-size: 28px;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-atc:hover {
+  background-color: #fff;
+  color: #000;
 }
